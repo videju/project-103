@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.identifyP{
+    border:  10px;
+    border-radius: 25%;
+    border-color: pink;
+    border-style: solid;
+}
+body{
+  background: linear-gradient(pink 0%,rgb(235, 140, 235) 40%,rgb(243, 93, 93) 100%)
+  
+}
+form{
+    transition: 0.3s;
+    color: black;
+    width: 100vh;
+    border-width: 5px;
+    border-color: red;
+    border-style:solid;
+    height: 20vh;
+
+    border-radius: 30%;
+}
+p span{
+    
+    background:  chartreuse;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 25%;
+
+}
+form:hover{
+    font-size: 30px;
+    cursor: pointer;
+    background-color:rgb(247, 173, 243);
+    transition: 0.6s
+}
+.p  {
+    font-size: 20px;
+    
+}
+.p:hover{
+    font-size: 40px;
+color: red;
+transition: 0.6s;
+
+}
+#result_of_objects,#result_of_accuracy{
+color: yellow;
+}
+h3{
+    width:80%;
+    font-size: 22px;
+}
+.camera{
+    border: 2px dashed black ;
+    width: 350px;
+    height: 300px;
+}
